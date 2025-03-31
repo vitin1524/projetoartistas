@@ -2,3 +2,38 @@ html {
   height: 100%;
   width: 100%;
 }
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td{
+  border: 2px solid black;
+  padding:  8px
+  text-align: center;
+  background-color: gold;
+  color:red;
+  font-family: comic sans ms;
+  front-size: 20px;
+  front-weight: bold;
+}
+h1{
+  color: red; /*cor do titulo*/
+  front-family: comic sans ms;
+  front-size: 20px;
+  front-weight: bold;
+}
+p {
+  color: red; /*cor do paragrafo*/
+  front-family: comic sans ms;
+  front-size: 15px;
+  front-weight: bold;
+}
+td {
+  color:red; /*cor do texto dentro da tabela*/
+  front-family: comic sans ms;
+  front-size: 20px;
+  front-weight: bold;
+}
+ body{
+   background-color:black; /*Define a cor do fundo da pagina*/
+ }  
