@@ -13,26 +13,26 @@ th, td{
   background-color: gold;
   color:red;
   font-family: comic sans ms;
-  front-size: 20px;
-  front-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 h1{
   color: red; /*cor do titulo*/
-  front-family: comic sans ms;
-  front-size: 20px;
-  front-weight: bold;
+  font-family: comic sans ms;
+  font-size: 20px;
+  font-weight: bold;
 }
 p {
   color: red; /*cor do paragrafo*/
-  front-family: comic sans ms;
-  front-size: 15px;
-  front-weight: bold;
+  font-family: comic sans ms;
+  font-size: 15px;
+  font-weight: bold;
 }
 td {
   color:red; /*cor do texto dentro da tabela*/
-  front-family: comic sans ms;
-  front-size: 20px;
-  front-weight: bold;
+  font-family: comic sans ms;
+  font-size: 20px;
+  font-weight: bold;
 }
  body{
    background-color:black; /*Define a cor do fundo da pagina*/
@@ -44,3 +44,10 @@ td {
   padding: 
 }
 
+.titulo{
+  color:red; /*cor do texto dentro da tabela*/
+  font-family: comic sans ms;
+  font-size: 20px;
+  font-weight: bold;
+}
+  
