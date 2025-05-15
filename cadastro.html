@@ -1,53 +1,65 @@
-<!DOCTYPE html>
-<html>
+<div class="form-container">
+  <h2>Faça Seu Cadastro</h2>
+  <form action="#" method="post">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-  <header>
-   <main>
-    <h1>Minha Página</h1>
-    <nav>
-     <a href="index.html">Inicio</a> \
-     <a href="artistas.html">Artistas</a> \
-     <a href="xxxtentacion.html">XxxTentacion</a> \
-     <a href="tupac.html">Tupac</a>
-    </nav>
-  </header>
-
-  <body bg color="white">
-<img src="banner.png" widht="400" height="1100">
-
-<div class="form container">
-  <h2>Fale Conosco</h2>
-  <form>
+    <!--Dados do Cliente-->
     <label for="nome">Nome:</label>
     <input type="text" id="nome" name="nome" required>
 
-    <label for="mensagem">Mensagem:</label>
-    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+    <label for="endereco">Endereço</label>
+    <input type="text" id="endereco" name="eendereco" required>
 
-    <button type="submit">Enviar</button>
-  </form>
+    <label for="telefone">Telefone</label>
+    <input type="tel" id="telefone" name="telefone" required>
+
+    <label for="wathsapp">Wathsapp</label>
+    <input type="tel" id="whatsapp" name="whatsapp" required>
+
+    <!--Tipo do Produto-->
+    <label for="produto">O que deseja encomendar</label>
+    <select id="produto" name="produto" required>
+      <option value="">Selecione uma opção</option>
+      <option value="bolos">Bolos</option>
+      <option value="salgados">Salgados</option>
+      <option value="sobremesa">Sobremesa</option>
+      <option value="outros">Outros</option>
+    </select>
+
+    <!--Descrição do Pedido-->
+    <label for="descricao">Descreva seu pedido</label>
+    <textarea id="descricao" name="descricao" rows="4" required></textarea>
+
+    <!--Restrições Alimentares-->
+    <label for="restricao">Possui alguma restrição alimentar?</label>
+    <textarea id="restricao" name="restricao" rows="2" placeholder="Ex: sem lactose, sem glúten..."></textarea>
+    
+    <!--Forma de pagamento-->
+    <label for="pagamento">Forma de pagamento</label>
+    <select id="pagamento" name="pagamento" required>
+      <option value="">Selecione uma opção</option>
+      <option value="pix">Pix</option>
+      <option value="dinheiro">Dinheiro</option>
+      <option value="boleto">Boleto</option>
+      <option value="cartao">Cartão</option>
+    </select>
+
+    <!--Data e Hora-->
+    <label for="data">Data da encomenda:</label>
+    <label type="date" id="data" name="data" required>
+
+    <label for="hora">Horário desejado:</label>
+    <label type="time" id="time" name="time" required>
+
+    <!--Entrega ou Retirada-->
+    <label for="entrega">Como deseja receber:</label>
+    <select id="entrega" name="entrega" required>
+      <option value="">Selecione uma opção</option>
+      <option value="entrega">Entrega</option>
+      <option value="retirada">Retirada</option>
+    </select>
+
+    <!--Botão de envio-->
+    <button type="submit">Enviar pedido</button>
+  
+  </form> 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-  </main>
-<script src="script.js"></script>
-
-
-</body>
-</html>
